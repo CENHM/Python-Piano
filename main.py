@@ -171,7 +171,7 @@ filepath = os.path.dirname(__file__)
 
 def playWAV(title, pause):
     time.sleep(pause)
-    path = filepath + '/key/' + title + '.wav'
+    path = filepath + '/keys/' + title + '.wav'
     chunk = 1024
     file = wave.open(path, "rb")
     p = pyaudio.PyAudio()
