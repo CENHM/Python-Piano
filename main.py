@@ -4,6 +4,8 @@ import pyaudio
 import wave
 import threading
 
+
+#在这里编谱
 MusicList = {
     ("A+2", 0.000),
     ("A+0", 2.000), ("c-2", 2.000), ("e-2", 2.000),
